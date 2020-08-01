@@ -1,0 +1,13 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\AWSCloudComputing.DataAccess\AWSCloudComputing.DataAccess.csproj" />
+    <ProjectReference Include="..\AWSCloudComputing.Models\AWSCloudComputing.Models.csproj" />
+    <ProjectReference Include="..\AWSCloudComputing.Repository\AWSCloudComputing.Repository.csproj" />
+  </ItemGroup>
+
+</Project>

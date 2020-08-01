@@ -1,0 +1,55 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29519.181
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AWSCloudComputing", "AWSCloudComputing\AWSCloudComputing.csproj", "{FC527834-0702-4F84-BEFE-E593CBB6216C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AWSCloudComputing.Services", "AWSCloudComputing.Services\AWSCloudComputing.Services.csproj", "{64D912D0-5838-47A0-8E5F-B594AE012F69}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AWSCloudComputing.Repository", "AWSCloudComputing.Repository\AWSCloudComputing.Repository.csproj", "{95552250-F6F5-43CB-9EA9-6D8872186CAE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AWSCloudComputing.Amazon.Integration", "AWSCloudComputing.Amazon.Integration\AWSCloudComputing.Amazon.Integration.csproj", "{DC3E9252-BB32-4B58-AF48-E10997A78850}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AWSCloudComputing.Models", "AWSCloudComputing.Models\AWSCloudComputing.Models.csproj", "{D377C809-09C1-4541-B7A5-30ED876E6B2C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AWSCloudComputing.DataAccess", "AWSCloudComputing.DataAccess\AWSCloudComputing.DataAccess.csproj", "{DC3870BD-E1C9-4C08-AB86-487D73ADFAE6}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{FC527834-0702-4F84-BEFE-E593CBB6216C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FC527834-0702-4F84-BEFE-E593CBB6216C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FC527834-0702-4F84-BEFE-E593CBB6216C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FC527834-0702-4F84-BEFE-E593CBB6216C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{64D912D0-5838-47A0-8E5F-B594AE012F69}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{64D912D0-5838-47A0-8E5F-B594AE012F69}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{64D912D0-5838-47A0-8E5F-B594AE012F69}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{64D912D0-5838-47A0-8E5F-B594AE012F69}.Release|Any CPU.Build.0 = Release|Any CPU
+		{95552250-F6F5-43CB-9EA9-6D8872186CAE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{95552250-F6F5-43CB-9EA9-6D8872186CAE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{95552250-F6F5-43CB-9EA9-6D8872186CAE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{95552250-F6F5-43CB-9EA9-6D8872186CAE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DC3E9252-BB32-4B58-AF48-E10997A78850}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DC3E9252-BB32-4B58-AF48-E10997A78850}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DC3E9252-BB32-4B58-AF48-E10997A78850}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DC3E9252-BB32-4B58-AF48-E10997A78850}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D377C809-09C1-4541-B7A5-30ED876E6B2C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D377C809-09C1-4541-B7A5-30ED876E6B2C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D377C809-09C1-4541-B7A5-30ED876E6B2C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D377C809-09C1-4541-B7A5-30ED876E6B2C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DC3870BD-E1C9-4C08-AB86-487D73ADFAE6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DC3870BD-E1C9-4C08-AB86-487D73ADFAE6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DC3870BD-E1C9-4C08-AB86-487D73ADFAE6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DC3870BD-E1C9-4C08-AB86-487D73ADFAE6}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {21C7E4F7-EC3F-4871-AECF-C33495B2DBBF}
+	EndGlobalSection
+EndGlobal
