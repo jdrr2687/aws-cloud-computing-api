@@ -4,6 +4,7 @@ using System.Linq;
 using System.Threading.Tasks;
 using Amazon.Integration.Interfaces;
 using AWSCloudComputing.Models;
+using Microsoft.AspNetCore.Cors;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using SaberApi.Servicios.Generales.Services.Interfaces;
@@ -22,6 +23,7 @@ namespace AWSCloudComputing.Controllers
             UploadFileService = uploadFileService;
         }
 
+      
         [HttpPost]
         [Route("Email")]
         public IActionResult SendEmail([FromBody] EmailRequest emailRequest)
@@ -39,6 +41,7 @@ namespace AWSCloudComputing.Controllers
             return Ok();
         }
 
+      
         [HttpPost]
         [Route("Upload")]
         public async Task<ActionResult<List<string>>> UploadFile(List<IFormFile> files)
