@@ -18,6 +18,9 @@ using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 using Microsoft.Extensions.Logging;
+using Saber.BusinessServices.External.Amazon.S3;
+using SaberApi.Servicios.Generales.Services;
+using SaberApi.Servicios.Generales.Services.Interfaces;
 
 namespace AWSCloudComputing
 {
@@ -40,6 +43,11 @@ namespace AWSCloudComputing
             services.AddTransient<ICustomerRepository, CustomerRepository>();
             services.AddTransient<ICustomerService, CustomerService>();
             services.AddTransient<ICustomerMapper, CustomerMapper>();
+
+            services.AddTransient<IUploadFileService, UploadFileService>();
+            services.AddTransient<IS3Configuration, S3Configuration>();
+            services.AddTransient<IStorageService, StorageService>();
+           
 
 
             services.AddSwagger();
@@ -66,6 +74,8 @@ namespace AWSCloudComputing
             {
                 endpoints.MapControllers();
             });
+
+           
         }
     }
 }
